@@ -6,7 +6,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 
 interface ProductCardProps {
   product: Product;
-  className?: string; // Tambahkan ini
+  className?: string; 
 }
 
 export const ProductCard = ({ product, className = '' }: ProductCardProps) => {

@@ -8,9 +8,9 @@ export const SearchAndFilter = () => {
   const [category, setCategory] = useState('all');
   const [sortBy, setSortBy] = useState('default');
 
-  // Fixed Line 12:
+
 const categories = ['all'].concat(Array.from(new Set(products.map(p => p.category))));
-  // Filter dan sortir produk
+
 
   return (
     <div className="mb-8 space-y-4">
